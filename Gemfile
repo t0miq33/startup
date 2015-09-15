@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.5'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -15,6 +15,8 @@ gem 'bootstrap-datepicker-rails', '~> 1.4.0'
 gem 'bootstrap-timepicker-rails', '~> 0.1.3'
 
 gem 'bootstrap-form', '~> 3.0.0'
+
+gem 'devise', '~> 3.5.2'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
