@@ -1,8 +1,10 @@
-<h1>Welcome to my StartUp</h1>
+<div class="text-center">
+	<h1>Welcome to my StartUp</h1>
 
-<% if user_signed_in? %>
-	#do something
-<% else %>
-	<%= link_to "LogIn", new_user_session_path %>
-	<%= link_to "SignUp",new_user_registration_path %>
-<% end %>
+	<% if user_signed_in? %>
+		#do something
+	<% else %>
+	<%= link_to "LogIn", new_user_session_path, class: "btn btn-default" %>
+		<%= link_to "SignUp",new_user_registration_path, class: "btn btn-primary" %>
+	<% end %>
+</div>
