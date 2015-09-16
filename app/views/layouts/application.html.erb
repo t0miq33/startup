@@ -28,6 +28,9 @@
 					<li><%= link_to "About", about_path %></li>
 					<li>
 						<% if user_signed_in? %>
+							<button type="button" class="btn navbar-btn btn-default">
+								<%= link_to "Account settings", edit_user_registration_path %>
+							</button>
 							<button type="button" class="btn navbar-btn btn-danger">
 								<%= link_to "Log out", destroy_user_session_path, method: :delete, style: "color: white; text-decoration:none;" %>
 							</button>
