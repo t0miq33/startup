@@ -34,6 +34,10 @@ gem "jquery-ui-rails"
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
+
+gem "paperclip", "~> 4.2"
+#gem 'paperclip', github: 'thoughtbot/paperclip'
+
 # bundle exec rake doc:rails generates the API under doc/api.
 
 group :development, :test do
